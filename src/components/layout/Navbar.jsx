@@ -9,7 +9,7 @@ import CardSideBar from "../cart/CardSideBar";
 import { useSelector } from "react-redux";
 
 const Navbar = () => {
-  const [show, setshow] = useState(true);
+  const [show, setShow] = useState(true);
   const [sideCart, setSideCart] = useState(false);
   const handleSideCard = (result) => {
     setSideCart(result);
@@ -57,7 +57,7 @@ const Navbar = () => {
                 <li>
                   <button
                     className="block md:hidden"
-                    onClick={() => setshow(!show)}
+                    onClick={() => setShow(!show)}
                   >
                     <RiBarChartFill />
                   </button>
@@ -70,7 +70,7 @@ const Navbar = () => {
             <ul
               className={`w-full ${
                 show ? "-translate-x-0" : "-translate-x-full"
-              } transition-all flex flex-col justify-center items-center gap-7 lg:gap-16 md:flex-row md:justify-center font-medium text-xl absolute text-black lg:static top-full left-0 bg-white h-auto`}
+              } transition-all flex flex-col justify-center items-center gap-7 lg:gap-16 md:flex-row md:justify-center font-medium text-xl absolute text-black md:static top-10 left-0 bg-white h-auto`}
             >
               <li>
                 <Link
