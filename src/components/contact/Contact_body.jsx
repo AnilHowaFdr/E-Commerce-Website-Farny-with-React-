@@ -9,7 +9,7 @@ const Contact_body = () => {
           <h2 className="font-semibold font-primary text-4xl">
             Get In Touch With Us
           </h2>
-          <p className="font-primary font-semibold text-base text-[#9F9F9F] text-center pt-2 w-[644px]">
+          <p className="font-primary font-semibold text-base text-[#9F9F9F] text-center pt-2 w-auto lg:w-[644px]">
             For More Information About Our Product & Services. Please Feel Free
             To Drop Us An Email. Our Staff Always Be There To Help You Out. Do
             Not Hesitate!

@@ -28,7 +28,7 @@ const BlogItems = () => {
       <h3 className="font-primary font-medium text-3xl">
         Exploring new ways of decorating
       </h3>
-      <p className="w-[817px] pt-3 font-primary text-[#9F9F9F] font-normal text-base">
+      <p className="w-[500px] sm:w-[550px] lg:w-[750px] pt-3 font-primary text-[#9F9F9F] font-normal text-base">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae
         ultricies leo integer malesuada nunc. In nulla posuere sollicitudin
@@ -38,7 +38,7 @@ const BlogItems = () => {
         Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et
         ultrices neque ornare aenean euismod elementum.
       </p>
-      <h4 className="font-primary w-fit font-normal text-base pt-8 pb-4 cursor-pointer hover:border-b-2 hover:border-black">
+      <h4 className="font-primary w-fit m-auto lg:m-0 font-normal text-base pt-8 pb-4 cursor-pointer hover:border-b-2 hover:border-black">
         Read more
       </h4>
     </div>

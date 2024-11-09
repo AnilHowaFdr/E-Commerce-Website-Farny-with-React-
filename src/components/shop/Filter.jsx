@@ -3,7 +3,7 @@ import { HiOutlineAdjustmentsHorizontal } from "react-icons/hi2";
 const Filter = () => {
   return (
     <section className="bg-[#F9F1E7] py-6">
-      <div className="container flex items-center gap-3 justify-center  sm:justify-between">
+      <div className="container grid grid-cols-1 md:grid-cols-2  items-center gap-3 ">
         <div className="flex ">
           <p className="font-primary font-normal text-xl flex gap-3 text-black">
             <HiOutlineAdjustmentsHorizontal />
@@ -13,7 +13,7 @@ const Filter = () => {
             Showing 1–16 of 32 results
           </p>
         </div>
-        <div className="flex gap-[29px] items-center">
+        <div className="flex gap-7 items-center">
           <div>
             <label
               htmlFor=""
