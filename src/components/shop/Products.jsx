@@ -42,7 +42,7 @@ const Products = ({ itemsPerPage }) => {
           pageCount={pageCount}
           previousLabel="< previous"
           renderOnZeroPageCount={null}
-          className="flex justify-center mt-10 gap-9 productPagination "
+          className="flex justify-start lg:justify-center mt-10 gap-2 lg:gap-9 productPagination "
         />
       </div>
     </section>
