@@ -34,11 +34,11 @@ const Detail = ({ data }) => {
       <div className="container">
         <ToastContainer position="top-right" />
         <ToastContainer />
-        <div className=" flex gap-24">
-          <div className="w-1/2">
+        <div className=" flex flex-col md:flex-row gap-24">
+          <div className="w-auto md:w-1/2">
             <ProductSlide settings={settings} api={data.images} />
           </div>
-          <div className="w-1/2">
+          <div className="w-auto md:w-1/2">
             <h2 className="font-primary font-normal text-[42px]">
               {data?.title}
             </h2>
@@ -62,10 +62,10 @@ const Detail = ({ data }) => {
                 <FaStarHalf />
               </li>
             </ul>
-            <p className="font-primary font-normal text-base w-[450px] ">
+            <p className="font-primary font-normal text-base w-auto md:w-[450px] ">
               {data?.description}
             </p>
-            <div className="pt-5 pb-5">
+            <div className="py-5 ml-4 sm:ml-0">
               <p className="font-primary pb-2 font-normal text-base text-[#9F9F9F]">
                 Size
               </p>
@@ -120,11 +120,11 @@ const Detail = ({ data }) => {
                 </label>
               </div>
             </div>
-            <div className="pb-5">
+            <div className="pb-5 ml-4 sm:ml-0">
               <p className="font-primary pb-2 font-normal text-base text-[#9F9F9F]">
                 Color
               </p>
-              <div className="flex gap-4">
+              <div className="flex gap-4 ">
                 <label
                   htmlFor="blue"
                   className={`w-6 h-6 rounded-full cursor-pointer ${
@@ -175,7 +175,7 @@ const Detail = ({ data }) => {
                 </label>
               </div>
             </div>
-            <div className="flex gap-5 pb-14 border-b">
+            <div className="flex flex-col ml-4 sm:ml-0 sm:flex-row gap-5 pb-14 border-b">
               <div className="flex gap-8 px-3 py-4 border font-primary font-medium text-lg items-center border-[#9F9F9F] rounded-xl w-fit">
                 <button
                   onClick={() => {
@@ -189,7 +189,7 @@ const Detail = ({ data }) => {
               </div>
               <button
                 onClick={handleAddToCart}
-                className="px-12 cursor-pointer py-[17px] border font-primary font-normal text-xl rounded-xl "
+                className="px-5 w-fit sm:px-12 cursor-pointer py-4 border font-primary font-normal text-xl rounded-xl "
               >
                 Add To Cart
               </button>

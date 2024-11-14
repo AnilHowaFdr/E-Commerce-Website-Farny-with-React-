@@ -8,7 +8,7 @@ const RelatedProduct = ({ products }) => {
     <section className="pt-14 pb-24">
       <div className="container ">
         <h2 className="title text-center pb-8">Related Products</h2>
-        <div className="flex justify-between gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
           {shortListProduct.map((item) => (
             <ProductsItems key={item.id} data={item} />
           ))}
