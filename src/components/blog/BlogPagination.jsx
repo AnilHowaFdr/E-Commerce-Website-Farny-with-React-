@@ -29,7 +29,7 @@ const BlogPagination = ({ itemsPerPage }) => {
         pageCount={pageCount}
         previousLabel="<div previous"
         renderOnZeroPageCount={null}
-        className="flex justify-end mt-7 gap-9 blogPagination "
+        className="flex justify-center md:justify-end mt-7 gap-3 md:gap-9 blogPagination "
       />
     </div>
   );

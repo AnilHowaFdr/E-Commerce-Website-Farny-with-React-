@@ -6,7 +6,7 @@ const Contact_body = () => {
     <section className="pt-24 pb-16">
       <div className="container">
         <div className="pb-28 flex flex-col justify-center items-center">
-          <h2 className="font-semibold font-primary text-4xl">
+          <h2 className="text-center font-semibold font-primary text-4xl">
             Get In Touch With Us
           </h2>
           <p className="font-primary font-semibold text-base text-[#9F9F9F] text-center pt-2 w-auto lg:w-[644px]">
@@ -15,7 +15,7 @@ const Contact_body = () => {
             Not Hesitate!
           </p>
         </div>
-        <div className="flex gap-8">
+        <div className="flex flex-col md:flex-row gap-8">
           <ContactInfo />
           <ContactForm />
         </div>

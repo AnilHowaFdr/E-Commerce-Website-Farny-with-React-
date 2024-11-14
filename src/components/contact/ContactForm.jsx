@@ -2,7 +2,7 @@ import InputBox from "../utilities/InputBox";
 
 const ContactForm = () => {
   return (
-    <div className="px-14 w-1/2 flex flex-col items-start ">
+    <div className="px-14 w-auto md:w-1/2 flex flex-col items-center md:items-start ">
       <InputBox title="Your name" placeholder="Abc" />
       <InputBox title="Email address" placeholder="Abc@def.com" type="email" />
       <InputBox title="Subject" placeholder="This is an optional" />
