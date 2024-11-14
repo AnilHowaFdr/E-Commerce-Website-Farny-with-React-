@@ -9,7 +9,7 @@ const BlogBody = () => {
         <BlogPagination itemsPerPage={3} className="w-3/4" />
         <div className="w-1/4 px-10 pt-6 pb-16">
           <div className="flex border rounded-xl justify-between m-auto w-fit sm:w-auto px-2 py-3">
-            <input type="text" className="border-none " />
+            <input type="text" className="border-none outline-none" />
             <IoSearch className="text-2xl" />
           </div>
           <h3 className="heading2 pt-10 pb-8 ">Categories</h3>
